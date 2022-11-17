@@ -6,7 +6,6 @@ body {
     background-size: cover;
 }
 
-
 .header {
     display: flex;
     flex: 1;
@@ -76,16 +75,41 @@ footer {
 }
 
 footer p {
-    margin: auto;
+    /* border: 2px black solid; */
     color: white;
-    text-align: center;
-    justify-content: center;
+    display:flex;
+    flex: initial;
+    justify-content: flex-start;
+    font-style: italic;
 }
 
-.footer-icon{
-    display: flex;
-    flex: 1;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.footer-left-p {
+    font-style: italic;
+    display:flex;
+    flex: initial;
+    justify-content: flex-start;
+    align-content: flex-start;
     margin-left: 20px;
+    align-self: flex-start;
+}
+
+.footer-icon {
+    /* border: 2px black solid; */
+    display: flex;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.footer-right-p {
+    display:flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+a:visited {
+    color: white;
 }
