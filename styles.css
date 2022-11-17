@@ -50,38 +50,6 @@ body {
     justify-content: center;
 }
 
-.main-container {
-    display: flex;
-    background-image: images/ba;
-    height: 800px;
-    width: auto;
-    align-self: center;
-}
-
-
-.center-column {
-    height: auto;
-    width: auto;
-    display: flex;
-    flex-direction: column;    
-    flex: auto;
-}
-
-.center-column img {
-    width: 200px;
-}
-
-
-
-.left-column {
-    background-color: rgb(35, 54, 70);
-}
-
-.center-column {
-    background-color: rgb(243, 243, 244);
-    flex: 6;
-}
-
 footer {
     position: absolute;
     bottom: 0;
