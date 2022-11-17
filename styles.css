@@ -6,7 +6,7 @@ body {
     background-size: cover;
 }
 
-.header {
+.menu {
     position: absolute;
     bottom: 25%;
     left: 0;
@@ -25,12 +25,12 @@ body {
     height: 30px;
 } */
 
-.header-left {
+.menu-left {
     display: flex;
     flex: 1;
 }
 
-.header p {
+.menu p {
     display: flex;
     flex: 1;
     font-family: "Brush Script MT", serif;
@@ -41,12 +41,12 @@ body {
     justify-content: center;
 }
 
-.header-right {
+.menu-right {
     display: flex;
     flex: 1;
 }
 
-.header a {
+.menu a {
     display: flex;
     flex: 1;
     color: white;
