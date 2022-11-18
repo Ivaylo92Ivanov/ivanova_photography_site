@@ -1,5 +1,11 @@
 /* Header pages CSS */
 
+main {
+    display: flex;
+    flex: 1;
+    background-color: burlywood;    
+}
+
 p, 
 a {
     font-family: "Brush Script MT", serif;
