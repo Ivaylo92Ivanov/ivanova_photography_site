@@ -1,11 +1,5 @@
 /* Header pages CSS */
 
-main {
-    display: flex;
-    flex: 1;
-    background-color: burlywood;    
-}
-
 p, 
 a {
     font-family: "Brush Script MT", serif;
@@ -24,6 +18,7 @@ header {
     background-color: rgb(70, 70, 70);
     align-items: center;
     justify-content: flex-end;
+    margin-bottom: 100px;
 }
 
 header a {
@@ -36,12 +31,37 @@ header a {
 
 main {
     display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+    bottom: 50px;
+    background: url(../../images/bio-1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+main div {
+    display: flex;
     flex: 1;
-    justify-self: center;
-    align-self: center;
-    width: 800px;
-    height: 900px;
-    background-color: burlywood;
+}
+
+.content {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.content img {
+    padding: 20px;
+}
+
+.content p,
+.content h2 {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 footer {
@@ -62,11 +82,10 @@ footer p {
     display:flex;
     flex: initial;
     justify-content: flex-start;
-    font-style: italic;
+
 }
 
 .footer-left-p {
-    font-style: italic;
     display:flex;
     flex: initial;
     justify-content: flex-start;
