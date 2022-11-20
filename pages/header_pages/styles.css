@@ -59,9 +59,13 @@ main div {
 }
 
 .content p,
-.content h2 {
+.content h1 {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.content p {
+    font-size: 25px;
 }
 
 footer {
