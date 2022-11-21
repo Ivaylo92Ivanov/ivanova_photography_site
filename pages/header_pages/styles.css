@@ -10,6 +10,11 @@ body#contacts{
     background-size: cover;
 }
 
+body#reviews{
+    background: url(../../images/reviews.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
 p, 
 a {
     font-family: "Brush Script MT", serif;
