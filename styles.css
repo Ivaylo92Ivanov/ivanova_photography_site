@@ -43,10 +43,10 @@ header a {
     width: 100%;
     display: flex;
     background-color: rgba(132, 177, 230, 0.8);
-    height: 60px;
+    height: 90px;
     align-items: center;
     font-size: 18px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .menu p {
