@@ -6,7 +6,7 @@ body#bio{
 }
 
 body#contacts{
-    background: url(../../images/bio.jpg) no-repeat center center fixed;
+    background: url(../../images/contacts.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
