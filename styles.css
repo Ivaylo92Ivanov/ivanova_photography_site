@@ -30,8 +30,6 @@ header {
 }
 
 header a {
-    display: flex;
-    flex: initial;
     text-align: center;
     padding: 0 5px;
     color: white;
@@ -48,7 +46,6 @@ header a {
     height: 60px;
     align-items: center;
     font-size: 18px;
-    /* font-family: "Brush Script MT", serif; */
     justify-content: space-between;
 }
 
@@ -98,24 +95,18 @@ footer {
 footer p {
     /* border: 2px black solid; */
     color: white;
-    display:flex;
-    flex: initial;
     justify-content: flex-start;
     font-style: italic;
 }
 
 .footer-left-p {
     font-style: italic;
-    display:flex;
-    flex: initial;
     justify-content: flex-start;
     margin-left: 20px;
-    
 }
 
 .footer-icon {
     /* border: 2px black solid; */
-    display: flex;
     height: 40px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -124,7 +115,8 @@ footer p {
 }
 
 .footer-right-p {
-    display:flex;
+    /* border: 2px solid black; */
+    display: flex;
     flex: 1;
     justify-content: flex-end;
     margin-right: 20px;
