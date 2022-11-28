@@ -122,6 +122,50 @@ header {
     text-justify: inter-word;
 }
 
+.reviews {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 20%;
+    background-color: white;
+    
+}
+
+.reviews .text {
+    display: inline-flex;
+    align-self: center;
+    justify-items: center;
+    
+}
+
+.reviews .text {
+    padding: 0 0 48px 0;
+}
+
+.text-img {
+    max-width: 50px;
+}
+
+.reviews h1 {
+    color: black;
+    font-family: "Brush Script MT", serif;
+    font-style: italic;
+}
+
+.reviews .images{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.reviews .images img{
+    box-shadow: 10px 10px 5px black;
+    border-radius: 8px;
+    max-width: 60%;
+}
+
+.reviews .images .right {
+    align-self: flex-end;
+}
 /* 
 footer {
     display: flex;
