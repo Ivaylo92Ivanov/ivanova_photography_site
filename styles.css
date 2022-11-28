@@ -21,6 +21,14 @@ a {
     
 }
 
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
 /* header * {
     border: 2px solid black;
 } */
@@ -68,7 +76,7 @@ header {
     border-radius: 8px;
 }
 
-
+/* 
 footer {
     display: flex;
     flex: 1;
@@ -84,7 +92,6 @@ footer {
 }
 
 footer p {
-    /* border: 2px black solid; */
     color: white;
     justify-content: flex-start;
     font-style: italic;
@@ -97,7 +104,7 @@ footer p {
 }
 
 .footer-icon {
-    /* border: 2px black solid; */
+   
     height: 40px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -106,7 +113,7 @@ footer p {
 }
 
 .footer-right-p {
-    /* border: 2px solid black; */
+   
     display: flex;
     flex: 1;
     justify-content: flex-end;
@@ -119,4 +126,4 @@ a:link {
 
 a:visited {
     color: white;
-}
+}  */
