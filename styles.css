@@ -9,6 +9,7 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
+    color: white;
 }
 
 p, 
@@ -17,8 +18,13 @@ a {
     font-style: italic;
     font-size: 24px;
     text-decoration: none;
-    color: white;
+    
 }
+
+/* header * {
+    border: 2px solid black;
+} */
+
 
 header {
     display: flex;
@@ -28,7 +34,7 @@ header {
     padding: 0 20%;
 }
 
-header .top {
+.top {
     display: flex;
     padding: 48px 0;
 }
@@ -48,44 +54,18 @@ header .top {
     padding-bottom: 48px;
 }
 
+.bottom p {
+    padding: 25px 25px 0 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .bottom img {
-    max-width: 300px;
     flex: 1;
-    box-shadow: 10px 10px black;
-}
-
-.menu {
-    position: absolute;
-    bottom: 25%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    display: flex;
-    background-color: rgba(132, 177, 230, 0.8);
-    height: 90px;
-    align-items: center;
-    font-size: 18px;
-    justify-content: space-evenly;
-}
-
-.menu p {
-    /* border: 2px solid black; */
-    display: flex;
-    flex: 1, 1;
-    font-weight: 500;
-    color: white;
-    font-size: 40px;
-    text-align: center;
-}
-
-.menu a {
-    /* border: 2px solid black; */
-    display: flex;
-    flex: 1;
-    color: white;
-    padding: 10px;
-    justify-content: center;
-    font-size: 25px;
+    max-width: 400px;
+    box-shadow: 10px 10px 5px black;
+    margin: 0 15px;
+    border-radius: 8px;
 }
 
 footer {
