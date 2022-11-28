@@ -62,11 +62,12 @@ header {
 
 .bottom img {
     flex: 1;
-    max-width: 400px;
+    max-width: 40%;
     box-shadow: 10px 10px 5px black;
     margin: 0 15px;
     border-radius: 8px;
 }
+
 
 footer {
     display: flex;
