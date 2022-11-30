@@ -145,10 +145,6 @@ header {
     display: inline-flex;
     align-self: center;
     justify-items: center;
-    
-}
-
-.reviews .text {
     padding: 0 0 72px 0;
 }
 
@@ -184,21 +180,41 @@ header {
     align-self: flex-end;
 }
 
-footer {
+
+.contacts {
     display: flex;
+    flex-direction: column;
     padding: 48px 20%;
     background-color: #3882f6;
+    /* align-items: center; */
+    gap: 24px;
+}
+
+.contacts p, a{
+    display: flex;
     align-items: center;
 }
 
-.footer-icon {
+
+.icon {
     height: 40px;
     margin: 5px 10px;
+    justify-self: center;
 }
 
-.footer-right {
-    margin-left: auto;
+.author {
+    display: flex;
+    padding: 12px 20%;
+    justify-content: flex-end;
+    background-color: #1f2937;
 }
+
+.author a {
+    font-size: 18px;
+}
+
+
+
 
 /*
 
