@@ -171,7 +171,7 @@ header {
 .reviews .images img{
     box-shadow: 10px 10px 5px black;
     border-radius: 8px;
-    max-width: 60%;
+    max-width: 80%;
     flex-shrink: 1;
     align-self: flex-start;
 }
