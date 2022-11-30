@@ -186,7 +186,6 @@ header {
     flex-direction: column;
     padding: 48px 20%;
     background-color: #3882f6;
-    /* align-items: center; */
     gap: 24px;
 }
 
