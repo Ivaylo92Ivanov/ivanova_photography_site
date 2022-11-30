@@ -66,7 +66,7 @@ header {
     margin: 0 15px;
     gap: 25px;
     align-items: center;
-    
+    flex-wrap: wrap;
 }
 
 .bottom .text {
@@ -82,10 +82,11 @@ header {
 
 .bottom img {
     flex: 1;
-    max-width: 400px;
-    max-height: 300px;
+    max-width: 50%;
+    /* max-height: 300px; */
     box-shadow: 10px 10px 5px black;
     border-radius: 8px;
+    justify-self: center;
 }
 
 .portfolio {
@@ -98,7 +99,7 @@ header {
 
 .portfolio img {
     border-radius: 8px;
-    max-width: 500px;
+    max-width: 45%;
     box-shadow: 10px 10px 5px black;
 }
 
@@ -108,12 +109,18 @@ header {
     background-color: #1f2937;
     gap: 24px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .bio img{
-    max-width: 30%;
+    flex: 1;
+    max-width: 40%;
     box-shadow: 10px 10px 5px black;
     border-radius: 8px;
+}
+
+.bio .text {
+    flex: 1;
 }
 
 .bio p {
@@ -138,7 +145,11 @@ header {
 }
 
 .reviews .text {
-    padding: 0 0 48px 0;
+    padding: 0 0 72px 0;
+}
+
+.reviews h1 {
+    align-self: flex-end;
 }
 
 .text-img {
@@ -161,6 +172,8 @@ header {
     box-shadow: 10px 10px 5px black;
     border-radius: 8px;
     max-width: 60%;
+    flex-shrink: 1;
+    align-self: flex-start;
 }
 
 .reviews .images .right {
